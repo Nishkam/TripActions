@@ -1,1 +1,16 @@
+Summary of the project:
 
+I have divided project into four modules
+
+1) selenium-domain (Not used currently)
+2) selenium-framework (Includes all the selenium dependencies and helper methods)
+3) selenium-pageobjects (Includes page classes for booking.com webpages)
+4) selenium-tests(Includes script for testing Booking.com webpage)
+
+testng.xml : Test can be run using this file. It includes test classes and parameters needed to run the tests.
+
+NOTE : In the test right now I am not doing any validation. It is just a script to
+a) Search for hotels in Los Angeles
+b) Select a random hotel from the top 3 results
+c) Book the room with lowest price
+d) Go to the checkout page
