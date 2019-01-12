@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+
+    <test name="Booking">
+        <parameter name="url" value="https://www.booking.com"></parameter>
+         <parameter name="cityName" value="Los Angeles"/>
+        <classes>
+            <class name="BookingTest"/>
+        </classes>
+    </test>
+
+</suite>
